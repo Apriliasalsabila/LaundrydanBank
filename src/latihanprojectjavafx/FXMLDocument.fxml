@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="404.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="latihanprojectjavafx.FXMLDocumentController">
+    <children>
+      <Label layoutX="171.0" layoutY="21.0" prefHeight="26.0" prefWidth="86.0" text="Biodata" />
+      <Label layoutX="29.0" layoutY="73.0" text="Nama" />
+      <Label layoutX="28.0" layoutY="111.0" text="Absen" />
+      <Label layoutX="29.0" layoutY="154.0" text="Alamat" />
+      <TextField fx:id="Nama" layoutX="83.0" layoutY="69.0" prefHeight="26.0" prefWidth="276.0" />
+      <TextField fx:id="Absen" layoutX="83.0" layoutY="107.0" prefHeight="26.0" prefWidth="276.0" />
+      <TextField fx:id="Alamat" layoutX="83.0" layoutY="149.0" prefHeight="26.0" prefWidth="276.0" />
+      <Button fx:id="oke" layoutX="176.0" layoutY="237.0" mnemonicParsing="false" onAction="#proses" prefHeight="26.0" prefWidth="53.0" text="Oke" />
+      <TextArea fx:id="Hasil" layoutX="93.0" layoutY="277.0" prefHeight="118.0" prefWidth="219.0" />
+      <TextField fx:id="Kelas" layoutX="83.0" layoutY="186.0" prefHeight="17.0" prefWidth="276.0" />
+      <Label layoutX="28.0" layoutY="190.0" text="Kelas" />
+    </children>
+</AnchorPane>
